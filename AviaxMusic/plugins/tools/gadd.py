@@ -2,9 +2,9 @@ import asyncio
 
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-OWNERS = "7297381612"
-from MOON_MUSIC import app
-from MOON_MUSIC.utils.database import add_served_chat, get_assistant
+OWNERS = "6536914119"
+from AviaxMusic import app
+from AviaxMusic.utils.database import add_served_chat, get_assistant
 
 
 @app.on_message(filters.command("gadd") & filters.user(int(OWNERS)))
